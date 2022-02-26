@@ -1,7 +1,7 @@
 :root {
   --light: hsl(0 0% 97%);
   --dark: hsl(0, 0%, 0%, 0.9);
-  --colour: hsl(50.6, 57.1%, 32.9%);
+  --colour: rgb(162, 80, 194);
 }
 
 *,
@@ -117,7 +117,14 @@ main {
 }
 
 .experience {
-  margin-top: 4px;
+  margin-top: 16px;
+}
+
+.experience p {
+    margin-top: 4px;
+}
+.experience ul {
+    margin-top: 6px;
 }
 
 .name {
@@ -130,13 +137,13 @@ main {
 }
 
 .secondary h2 {
-  background-color: var(--dark);
+  background-color: var(--light);
   color: var(--colour);
   min-width: calc(66% + 32px);
 }
 
 .secondary h2::after {
-  border-left-color: var(--dark);
+  border-left-color: var(--light);
 }
 
 .contact {
